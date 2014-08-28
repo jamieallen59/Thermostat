@@ -3,6 +3,14 @@ Thermostat
 
 This thermostat application was created using JavaScript, JQuery, HTML, CSS and tested in Jasmine.
 
+### Completion time 2-3 hours
+
+The challenge is to create a simple interface for a digital thermostat, using JavaScript, jQuery and Jasmine.
+
+![Thermostat](https://github.com/makersacademy/course/raw/master/images/thermostat.png)
+
+Use the specifications below (hint: this could help you plan your Jasmine expectations).
+
 Thermostat spec
 ===============
 

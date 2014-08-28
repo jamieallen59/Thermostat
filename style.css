@@ -1,7 +1,18 @@
 body {
 	font-family: 'Helvetica Neue';
 	font-size: 30px;
-	margin: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 100px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+.temperature {
+	font-size: 120px;
 }
 
 .efficient {
@@ -15,3 +26,62 @@ body {
 .inefficient {
 	color: red;
 }
+button {
+	width: 13%;
+	height: 15%;
+	border: none;
+	margin: -5px;
+	cursor: pointer;
+}
+	button.reset {
+		width: 25.8%;
+		font-size: 0.8em;
+		background-color: #DDDEDD;
+		margin-bottom: 1%;
+		height: 12%;
+		border-bottom: 1px solid #858585;
+		border-right: 1px solid #858585;
+		border-left: 1px solid #858585;
+		border-bottom-left-radius: 3px;
+		border-bottom-right-radius: 3px;
+	}
+	button.reset:hover {
+		background-color: #BEC0BE;
+	}
+	button.reset:focus {
+		outline: none;
+	}
+	button.increaseTemp {
+		background-color: #DDDEDD;
+		color: green;
+		border-left: 1px solid #858585;
+		border-top: 1px solid #858585;
+		border-top-left-radius: 3px;
+	}
+		button.increaseTemp:hover {
+		background-color: #BEC0BE;
+	}
+		button.increaseTemp:focus {
+			outline: none;
+		}
+	button.decreaseTemp {
+		background-color: #DDDEDD;
+		color: red;
+		border-top: 1px solid #858585;
+		border-right: 1px solid #858585;
+		border-top-right-radius: 3px;
+	}
+		button.decreaseTemp:hover {
+		background-color: #BEC0BE;
+	}
+		button.decreaseTemp:focus {
+			outline: none;
+		}
+		div#psm-checkbox {
+			width: 25%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		label#psm {
+			font-size: 0.8em;
+		}
