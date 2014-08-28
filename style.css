@@ -44,6 +44,7 @@ button {
 		border-left: 1px solid #858585;
 		border-bottom-left-radius: 3px;
 		border-bottom-right-radius: 3px;
+		border-top: 1px solid #858585;
 	}
 	button.reset:hover {
 		background-color: #BEC0BE;

@@ -5,7 +5,7 @@ Challenge criteria shown below:
 
 #### Completion time 2-3 hours
 
-The challenge is to create a simple interface for a digital thermostat.
+The challenge is to create a simple interface for a digital thermostat like so:
 
 ![Thermostat](https://github.com/makersacademy/course/raw/master/images/thermostat.png)
 
@@ -26,6 +26,8 @@ Specification:
 
 My JavaScript Thermostat
 =========================
+
+![](assets/screenshot.png)
 
 Technologies and methods used:
 - Javascript and JQuery
