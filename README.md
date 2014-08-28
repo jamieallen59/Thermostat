@@ -1,11 +1,9 @@
 Thermostat
 ==========
 
-This thermostat application was created using JavaScript, JQuery, HTML, CSS and tested in Jasmine.
-
 Challenge criteria shown below:
 
-### Completion time 2-3 hours
+#### Completion time 2-3 hours
 
 The challenge is to create a simple interface for a digital thermostat.
 
@@ -13,8 +11,7 @@ The challenge is to create a simple interface for a digital thermostat.
 
 Use the specifications below (hint: this could help you plan your Jasmine expectations).
 
-Thermostat spec
-===============
+Specification:
 
 - Thermostat starts at 20 degrees
 - You can increase the temp with the up button
@@ -26,3 +23,12 @@ Thermostat spec
 - You can reset the temperature to 20 by hitting the reset button
 - The thermostat should color the display based on energy usage - < 18 is green, < 25 is yellow, otherwise red
 - After every temperature change, the thermostat makes a POST request to localhost:4567/temperature_change, with the new temperature
+
+My JavaScript Thermostat
+=========================
+
+Technologies and methods used:
+- Javascript and JQuery
+- Tested in Jasmine
+- Styled with HTML and CSS
+
