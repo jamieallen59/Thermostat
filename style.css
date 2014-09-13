@@ -99,12 +99,25 @@ h2 {
 		}
 
 /*---Checkbox hack ---*/
-
-.colour-tester {
-	background-color: white;
-	width: 30px;
-	height: 30px;
+.checkbox-label {
+	cursor: pointer;
 }
-input[type=checkbox]:checked ~ .colour-tester {
-	background-color: black;
+
+input[type=checkbox] {
+   position: absolute;
+   top: -9999px;
+   left: -9999px;
+}
+
+#psm-checkbox {
+	background-color: #FFDA96;
+	width: 100%;
+	height: 35px;
+	margin-top: -18px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+input[type=checkbox]:checked ~ #psm-checkbox {
+	background-color: #82C082;
 }
