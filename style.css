@@ -99,6 +99,10 @@ h2 {
 		}
 
 /*---Checkbox hack ---*/
+
+.label-container {
+	margin-top: 6px;
+}
 .checkbox-label {
 	cursor: pointer;
 }
@@ -110,14 +114,21 @@ input[type=checkbox] {
 }
 
 #psm-checkbox {
-	background-color: #FFDA96;
+	background-color: #FFEBC7;
 	width: 100%;
 	height: 35px;
-	margin-top: -18px;
+	margin-top: -24px;
 	border-bottom-left-radius: 25px;
 	border-bottom-right-radius: 25px;
 }
 
 input[type=checkbox]:checked ~ #psm-checkbox {
-	background-color: #82C082;
+	background-color: #C1DBC1;
 }
+
+/*input[type=checkbox]:active ~ #psm-checkbox {
+	position:relative;
+	top: 1px;
+	margin-top: -25px;
+}
+*/
