@@ -37,5 +37,5 @@ Technologies and methods used:
 - Tested in Jasmine
 - Styled with HTML and CSS
 
-Try out the ![working version](http://js-thermostat.herokuapp.com)
+Try out the [working version](http://js-thermostat.herokuapp.com/)
 
