@@ -1,6 +1,9 @@
 Thermostat
 ==========
 
+##Version 2
+![](assets/screenshot_2.png)
+
 Challenge criteria shown below:
 
 #### Completion time 2-3 hours
@@ -11,7 +14,7 @@ The challenge is to create a simple interface for a digital thermostat like so:
 
 Use the specifications below (hint: this could help you plan your Jasmine expectations).
 
-Specification:
+Spec:
 
 - Thermostat starts at 20 degrees
 - You can increase the temp with the up button
@@ -29,11 +32,11 @@ JavaScript Thermostat
 ##Version 1
 ![](assets/screenshot.png)
 
-##Version 2
-![](assets/screenshot_2.png)
-
 Technologies and methods used:
 - Javascript and JQuery
 - Tested in Jasmine
 - Styled with HTML and CSS
+
+Try out the ![working version](http://js-thermostat.herokuapp.com/
+)
 
