@@ -1,12 +1,7 @@
 Thermostat
 ==========
 
-##Final version
-![](assets/screenshot_2.png)
-
-Try out the [Final version](http://js-thermostat.herokuapp.com/)
-
-Challenge criteria shown below:
+Challenge criteria:
 
 #### Completion time 2-3 hours
 
@@ -31,6 +26,12 @@ Spec:
 
 JavaScript Thermostat
 =========================
+
+[Have a look at the final version on Heroku](http://js-thermostat.herokuapp.com/)
+
+##Final version
+![](assets/screenshot_2.png)
+
 ##Version 1
 ![](assets/screenshot.png)
 
