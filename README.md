@@ -1,8 +1,10 @@
 Thermostat
 ==========
 
-##Version 2
+##Final version
 ![](assets/screenshot_2.png)
+
+Try out the [Final version](http://js-thermostat.herokuapp.com/)
 
 Challenge criteria shown below:
 
@@ -37,5 +39,4 @@ Technologies and methods used:
 - Tested in Jasmine
 - Styled with HTML and CSS
 
-Try out the [working version](http://js-thermostat.herokuapp.com/)
 
