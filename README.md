@@ -1,11 +1,13 @@
-Thermostat
-==========
+JavaScript Thermostat
+=========================
 
-Challenge criteria:
+[Have a look at the final version on Heroku](http://js-thermostat.herokuapp.com/)
 
-#### Completion time 2-3 hours
+#### Challenge criteria:
 
-The challenge is to create a simple interface for a digital thermostat like so:
+Completion time 2-3 hours.
+
+The challenge is to create a simple interface for a digital thermostat, like so:
 
 ![Thermostat](https://github.com/makersacademy/course/raw/master/images/thermostat.png)
 
@@ -23,11 +25,6 @@ Spec:
 - You can reset the temperature to 20 by hitting the reset button
 - The thermostat should color the display based on energy usage - < 18 is green, < 25 is yellow, otherwise red
 - After every temperature change, the thermostat makes a POST request to localhost:4567/temperature_change, with the new temperature
-
-JavaScript Thermostat
-=========================
-
-[Have a look at the final version on Heroku](http://js-thermostat.herokuapp.com/)
 
 ##Final version
 ![](assets/screenshot_2.png)
