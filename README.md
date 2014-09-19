@@ -1,7 +1,7 @@
 JavaScript Thermostat
 =========================
 
-[Have a look at the final version on Heroku](http://js-thermostat.herokuapp.com/)
+Have a look at the final version on Heroku: [JavaScript Thermostat](http://js-thermostat.herokuapp.com/)
 
 #### Challenge criteria:
 
@@ -36,5 +36,16 @@ Technologies and methods used:
 - Javascript and JQuery
 - Tested in Jasmine
 - Styled with HTML and CSS
+
+### Take a look at the code
+```sh
+git clone git@github.com:jamieallen59/Thermostat.git
+cd Thermostat
+```
+
+### Run the tests
+```sh
+open SpecRunner.html
+```
 
 
