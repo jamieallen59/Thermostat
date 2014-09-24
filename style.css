@@ -12,12 +12,36 @@ h2 {
 }
 .efficient {
 	color: green;
+	font-size: 25px;
+	padding-left: 20px;
+	font-weight: 500;
+	background: rgb(237, 245, 250);
+	margin-bottom: -2px;
+	margin-top: 4px;
+	opacity: 0.8;
+	transition: 2s ease-in-out;
 }
 .average {
 	color: orange;
+	font-size: 25px;
+	padding-left: 20px;
+	font-weight: 500;
+	background: rgb(237, 245, 250);
+	margin-bottom: -2px;
+	margin-top: 4px;
+	opacity: 0.8;
+	transition: 2s ease-in-out;
 }
 .inefficient {
 	color: red;
+	font-size: 25px;
+	padding-left: 20px;
+	font-weight: 500;
+	background: rgb(237, 245, 250);
+	margin-bottom: -2px;
+	margin-top: 4px;
+	opacity: 0.8;
+	transition: 2s ease-in-out;
 }
 
 .thermostat-container {
@@ -28,7 +52,7 @@ h2 {
 	margin-left: auto;
 	text-align: center;
 	border-radius: 25px;
-	box-shadow: 5px 5px 0px 2px #6E84AC;
+	box-shadow: 0px 0px 5px 2px #6E84AC;
 	margin-top: 90px;
 	background-color: #FFFEF9;
 }
@@ -46,6 +70,7 @@ h2 {
 		border-top: 1px solid #DEDEDE;
 		border-bottom: 1px solid #DEDEDE;
 		border-right: 1px solid #DEDEDE;
+		box-shadow: inset 0px 0px 1px 0.4px #DEDEDE;
 	}
 		.increaseTemp:hover {
 			background-color: #F3F0E1;
@@ -65,6 +90,7 @@ h2 {
 		color: #8E2800;
 		border-top: 1px solid #DEDEDE;
 		border-bottom: 1px solid #DEDEDE;
+		box-shadow: inset 0px 0px 1px 0.4px #DEDEDE;
 	}
 		.decreaseTemp:hover {
 			background-color: #F3F0E1;
@@ -83,9 +109,11 @@ h2 {
 		background-color: #FFFEF9;
 		cursor: pointer;
 		width: 100%;
+		color: #5F5F5F;
 		margin-top: -2px;
 		padding: 5px;
 		border-bottom: 1px solid #DEDEDE;
+		box-shadow: inset 0px 0px 1px 0.4px #DEDEDE;
 	}
 		.reset:hover {
 			background-color: #F3F0E1;
@@ -102,6 +130,7 @@ h2 {
 
 .label-container {
 	margin-top: 6px;
+	color: #5F5F5F;
 }
 .checkbox-label {
 	cursor: pointer;
