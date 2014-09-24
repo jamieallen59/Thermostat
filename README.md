@@ -1,7 +1,7 @@
 JavaScript Thermostat
 =========================
 
-Have a look at the final version on Heroku: [JavaScript Thermostat](http://js-thermostat.herokuapp.com/)
+Have a look at the final version on Heroku: [JavaScript Thermostat](http://js-wall-thermostat.herokuapp.com/)
 
 #### Challenge criteria:
 
