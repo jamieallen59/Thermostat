@@ -1,0 +1,163 @@
+body {
+	font-family: 'Helvetica Neue', Helvetica;
+	background: url('../images/white_wall.png');
+}
+
+h2 {
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+.temperature {
+	font-size: 120px;
+}
+.efficient {
+	color: green;
+	font-size: 25px;
+	padding-left: 20px;
+	font-weight: 500;
+	background: rgb(237, 245, 250);
+	margin-bottom: -2px;
+	margin-top: 4px;
+	opacity: 0.8;
+	transition: 2s ease-in-out;
+}
+.average {
+	color: orange;
+	font-size: 25px;
+	padding-left: 20px;
+	font-weight: 500;
+	background: rgb(237, 245, 250);
+	margin-bottom: -2px;
+	margin-top: 4px;
+	opacity: 0.8;
+	transition: 2s ease-in-out;
+}
+.inefficient {
+	color: red;
+	font-size: 25px;
+	padding-left: 20px;
+	font-weight: 500;
+	background: rgb(237, 245, 250);
+	margin-bottom: -2px;
+	margin-top: 4px;
+	opacity: 0.8;
+	transition: 2s ease-in-out;
+}
+
+.thermostat-container {
+	width: 240px;
+	font-family: 'Helvetica Neue', Helvetica;
+	padding: 20px 0px 0px 0px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	border-radius: 25px;
+	box-shadow: 0px 0px 5px 2px #6E84AC;
+	margin-top: 90px;
+	background-color: #FFFEF9;
+}
+
+.temp-controls {
+	display: flex;
+	height: 40px;
+}
+	.increaseTemp {
+		border: 0;
+		width: 50%;
+		background-color: #FFFEF9;
+		cursor: pointer;
+		color: #468966;
+		border-top: 1px solid #DEDEDE;
+		border-bottom: 1px solid #DEDEDE;
+		border-right: 1px solid #DEDEDE;
+		box-shadow: inset 0px 0px 1px 0.4px #DEDEDE;
+	}
+		.increaseTemp:hover {
+			background-color: #F3F0E1;
+		}
+		.increaseTemp:active {
+			position: relative;
+			top: 1px;
+		}
+		.increaseTemp:focus {
+			outline: 0;
+		}
+	.decreaseTemp {
+		border: 0;
+		width: 50%;
+		background-color: #FFFEF9;
+		cursor: pointer;
+		color: #8E2800;
+		border-top: 1px solid #DEDEDE;
+		border-bottom: 1px solid #DEDEDE;
+		box-shadow: inset 0px 0px 1px 0.4px #DEDEDE;
+	}
+		.decreaseTemp:hover {
+			background-color: #F3F0E1;
+		}
+		.decreaseTemp:active {
+			position: relative;
+			top: 1px;
+		}
+		.decreaseTemp:focus {
+			outline: 0;
+		}
+
+	.reset {
+		border: 0;
+		font-size: 20px;
+		background-color: #FFFEF9;
+		cursor: pointer;
+		width: 100%;
+		color: #5F5F5F;
+		margin-top: -2px;
+		padding: 5px;
+		border-bottom: 1px solid #DEDEDE;
+		box-shadow: inset 0px 0px 1px 0.4px #DEDEDE;
+	}
+		.reset:hover {
+			background-color: #F3F0E1;
+		}
+		.reset:active {
+			position: relative;
+			top: 1px;
+		}
+		.reset:focus {
+			outline: 0;
+		}
+
+/*---Checkbox hack ---*/
+
+.label-container {
+	margin-top: 6px;
+	color: #5F5F5F;
+}
+.checkbox-label {
+	cursor: pointer;
+}
+
+input[type=checkbox] {
+   position: absolute;
+   top: -9999px;
+   left: -9999px;
+}
+
+#psm-checkbox {
+	background-color: #FFEBC7;
+	width: 100%;
+	height: 35px;
+	margin-top: -24px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+input[type=checkbox]:checked ~ #psm-checkbox {
+	background-color: #C1DBC1;
+}
+
+/*input[type=checkbox]:active ~ #psm-checkbox {
+	position:relative;
+	top: 1px;
+	margin-top: -25px;
+}
+*/
