@@ -27,10 +27,10 @@ Spec:
 - After every temperature change, the thermostat makes a POST request to localhost:4567/temperature_change, with the new temperature
 
 ##Final version
-![](assets/screenshot_3.png)
+![](public/images/screenshot_3.png)
 
 ##Version 1
-![](assets/screenshot.png)
+![](public/images/screenshot.png)
 
 Technologies and methods used:
 - Javascript and JQuery
