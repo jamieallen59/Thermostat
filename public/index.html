@@ -34,10 +34,11 @@
 		<script>
 		$(document).ready(function() {
 
-			$("window").load(function() {
+// Preventing transitions from loading on screen load
+			$(window).load(function() {
 			  $("body").removeClass("preload");
 			});
-			
+
 			var thermostat = new Thermostat();
 
 			function updateTemperature() {
