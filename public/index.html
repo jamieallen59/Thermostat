@@ -9,7 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 </head>
 
-<body>
+<body class='preload'>
 	<section class='thermostat-container'>
 		<h2>
 			<span class='temperature'></span>°C
@@ -33,6 +33,11 @@
 		<script src='http://code.jquery.com/jquery-2.1.1.min.js'></script>
 		<script>
 		$(document).ready(function() {
+
+			$("window").load(function() {
+			  $("body").removeClass("preload");
+			});
+			
 			var thermostat = new Thermostat();
 
 			function updateTemperature() {
